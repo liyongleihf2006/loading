@@ -1,0 +1,210 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    
+        <style>
+            circle{
+                fill:red;
+            }
+        
+            circle:nth-of-type(1){
+                animation:animations1 1s steps(8,end) infinite;
+            }
+            @keyframes animations1{
+            
+                0%{fill-opacity: 1}
+            
+                12.5%{fill-opacity: 0.8571428571428572}
+            
+                25%{fill-opacity: 0.7142857142857143}
+            
+                37.5%{fill-opacity: 0.5714285714285714}
+            
+                50%{fill-opacity: 0.4285714285714286}
+            
+                62.5%{fill-opacity: 0.2857142857142857}
+            
+                75%{fill-opacity: 0.1428571428571429}
+            
+                87.5%{fill-opacity: 0}
+            
+                100%{fill-opacity: 0.9821428571428572}
+            }
+            circle:nth-of-type(2){
+                animation:animations2 1s steps(8,end) infinite;
+            }
+            @keyframes animations2{
+            
+                0%{fill-opacity: 0.8571428571428572}
+            
+                12.5%{fill-opacity: 0.7142857142857143}
+            
+                25%{fill-opacity: 0.5714285714285714}
+            
+                37.5%{fill-opacity: 0.4285714285714286}
+            
+                50%{fill-opacity: 0.2857142857142857}
+            
+                62.5%{fill-opacity: 0.1428571428571429}
+            
+                75%{fill-opacity: 0}
+            
+                87.5%{fill-opacity: 0.9821428571428572}
+            
+                100%{fill-opacity: 0.8392857142857142}
+            }
+            circle:nth-of-type(3){
+                animation:animations3 1s steps(8,end) infinite;
+            }
+            @keyframes animations3{
+            
+                0%{fill-opacity: 0.7142857142857143}
+            
+                12.5%{fill-opacity: 0.5714285714285714}
+            
+                25%{fill-opacity: 0.4285714285714286}
+            
+                37.5%{fill-opacity: 0.2857142857142857}
+            
+                50%{fill-opacity: 0.1428571428571429}
+            
+                62.5%{fill-opacity: 0}
+            
+                75%{fill-opacity: 0.9821428571428572}
+            
+                87.5%{fill-opacity: 0.8392857142857142}
+            
+                100%{fill-opacity: 0.6964285714285714}
+            }
+            circle:nth-of-type(4){
+                animation:animations4 1s steps(8,end) infinite;
+            }
+            @keyframes animations4{
+            
+                0%{fill-opacity: 0.5714285714285714}
+            
+                12.5%{fill-opacity: 0.4285714285714286}
+            
+                25%{fill-opacity: 0.2857142857142857}
+            
+                37.5%{fill-opacity: 0.1428571428571429}
+            
+                50%{fill-opacity: 0}
+            
+                62.5%{fill-opacity: 0.9821428571428572}
+            
+                75%{fill-opacity: 0.8392857142857142}
+            
+                87.5%{fill-opacity: 0.6964285714285714}
+            
+                100%{fill-opacity: 0.5535714285714286}
+            }
+            circle:nth-of-type(5){
+                animation:animations5 1s steps(8,end) infinite;
+            }
+            @keyframes animations5{
+            
+                0%{fill-opacity: 0.4285714285714286}
+            
+                12.5%{fill-opacity: 0.2857142857142857}
+            
+                25%{fill-opacity: 0.1428571428571429}
+            
+                37.5%{fill-opacity: 0}
+            
+                50%{fill-opacity: 0.9821428571428572}
+            
+                62.5%{fill-opacity: 0.8392857142857142}
+            
+                75%{fill-opacity: 0.6964285714285714}
+            
+                87.5%{fill-opacity: 0.5535714285714286}
+            
+                100%{fill-opacity: 0.4107142857142858}
+            }
+            circle:nth-of-type(6){
+                animation:animations6 1s steps(8,end) infinite;
+            }
+            @keyframes animations6{
+            
+                0%{fill-opacity: 0.2857142857142857}
+            
+                12.5%{fill-opacity: 0.1428571428571429}
+            
+                25%{fill-opacity: 0}
+            
+                37.5%{fill-opacity: 0.9821428571428572}
+            
+                50%{fill-opacity: 0.8392857142857142}
+            
+                62.5%{fill-opacity: 0.6964285714285714}
+            
+                75%{fill-opacity: 0.5535714285714286}
+            
+                87.5%{fill-opacity: 0.4107142857142858}
+            
+                100%{fill-opacity: 0.2678571428571428}
+            }
+            circle:nth-of-type(7){
+                animation:animations7 1s steps(8,end) infinite;
+            }
+            @keyframes animations7{
+            
+                0%{fill-opacity: 0.1428571428571429}
+            
+                12.5%{fill-opacity: 0}
+            
+                25%{fill-opacity: 0.9821428571428572}
+            
+                37.5%{fill-opacity: 0.8392857142857142}
+            
+                50%{fill-opacity: 0.6964285714285714}
+            
+                62.5%{fill-opacity: 0.5535714285714286}
+            
+                75%{fill-opacity: 0.4107142857142858}
+            
+                87.5%{fill-opacity: 0.2678571428571428}
+            
+                100%{fill-opacity: 0.125}
+            }
+            circle:nth-of-type(8){
+                animation:animations8 1s steps(8,end) infinite;
+            }
+            @keyframes animations8{
+            
+                0%{fill-opacity: 0}
+            
+                12.5%{fill-opacity: 0.9821428571428572}
+            
+                25%{fill-opacity: 0.8392857142857142}
+            
+                37.5%{fill-opacity: 0.6964285714285714}
+            
+                50%{fill-opacity: 0.5535714285714286}
+            
+                62.5%{fill-opacity: 0.4107142857142858}
+            
+                75%{fill-opacity: 0.2678571428571428}
+            
+                87.5%{fill-opacity: 0.125}
+            
+                100%{fill-opacity: -0.017857142857142794}
+            }
+        </style>    
+        
+            <circle r="10" cx="50" cy="10"/>
+            
+            <circle r="10" cx="21.7157287525381" cy="21.7157287525381"/>
+            
+            <circle r="10" cx="10" cy="50.00000000000001"/>
+            
+            <circle r="10" cx="21.71572875253809" cy="78.2842712474619"/>
+            
+            <circle r="10" cx="49.99999999999999" cy="90"/>
+            
+            <circle r="10" cx="78.2842712474619" cy="78.2842712474619"/>
+            
+            <circle r="10" cx="90" cy="50"/>
+            
+            <circle r="10" cx="78.2842712474619" cy="21.7157287525381"/>
+            </svg>

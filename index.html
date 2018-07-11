@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loading</title>
+</head>
+<body>
+    <h4>Loading</h4>
+    <h5>简介:</h5>
+    <span>
+        一个加载中的实现,我是使用svg实现的,没有使用旋转,而是使用八个小圆点透明度的变化来实现
+    </span>
+    <h5>生成步骤</h5>
+    <span>
+        <ol>
+            <li>新建一个svg文件,比如loading.svg</li>
+            <li>执行generate-svg-content.js中的函数并将函数的输出复制粘贴到上一步中的svg文件中</li>
+            <li>在html中写一个img或者embed通过其src属性引入第一步的svg文件</li>
+            <li>根据需求来给上一步的img或embed设置一下宽高</li>
+        </ol>
+    </span>
+    <h5>效果</h5>
+    <img src="loading.svg" height="20px" width="20px;">
+    <h5>执行generate-svg-content.js中函数的输出(generate(10,1,"red"),其中10是小圆点的半径,1是变化周期,"red"是小圆点的颜色)</h5>
+    <textarea id="svg-content" style="width: 100%;height: 300px;"></textarea>
+    <script src="./generate-svg-content.js"></script>
+    <script>
+        document.querySelector("#svg-content").innerHTML=generate(10,1,"red");
+    </script>
+</body>
+</html>
